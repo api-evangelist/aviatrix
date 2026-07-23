@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/AviatrixSystems + registry.terraform.io + pkg.go.dev
+packages:
+  - language: hcl
+    registry: terraform
+    name: AviatrixSystems/aviatrix
+    url: https://registry.terraform.io/providers/AviatrixSystems/aviatrix/latest
+    install: 'terraform { required_providers { aviatrix = { source = "AviatrixSystems/aviatrix" } } }'
+    version: 9.0.10
+    downloads: 4811191
+    source_code: https://github.com/AviatrixSystems/terraform-provider-aviatrix
+    official: true
+    description: Official Terraform provider for managing the Aviatrix Controller (multicloud networking + Distributed Cloud Firewall).
+  - language: go
+    registry: pkg.go.dev
+    name: github.com/AviatrixSystems/terraform-provider-aviatrix/v3/goaviatrix
+    url: https://pkg.go.dev/github.com/AviatrixSystems/terraform-provider-aviatrix/v3/goaviatrix
+    install: go get github.com/AviatrixSystems/terraform-provider-aviatrix/v3/goaviatrix
+    source_code: https://github.com/AviatrixSystems/terraform-provider-aviatrix
+    official: true
+    description: goaviatrix is the first-party Go client library for the Aviatrix Controller REST API, published inside the Terraform provider repo.
+notes:
+  - Aviatrix publishes no PyPI (404) or npm (404) client library as of this pass.
+  - Related official tooling not catalogued as client SDKs - terraform-provider-avxcloud, aviatrix-siem-connector, SplunkforAviatrix, k8s-firewall-charts (Helm).

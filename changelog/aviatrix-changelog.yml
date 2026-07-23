@@ -1,0 +1,26 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.aviatrix.com/docs/enterprise/9.0/reference/release-notices/what-is-new/what-is-new-controller.md
+scheme: semver
+current_version: 9.0.0
+channels:
+  - name: Controller and Gateway Software
+    url: https://docs.aviatrix.com/docs/enterprise/9.0/reference/release-notices/release-notes/controller/index.md
+  - name: CoPilot
+    url: https://docs.aviatrix.com/docs/enterprise/9.0/reference/release-notices/release-notes/copilot/index.md
+  - name: What's New in the Aviatrix Platform
+    url: https://docs.aviatrix.com/docs/enterprise/9.0/reference/release-notices/what-is-new/what-is-new.md
+entries:
+  - version: 9.0.0
+    date: '2026-05-12'
+    breaking: true
+    highlights:
+      - Intrusion Prevention System (IPS) with TLS decryption.
+      - Distributed Cloud Firewall (DCF) expanded to serverless resources and edge platforms; DCF transparency mode for existing AWS Transit Gateway environments.
+      - Active Mesh 4.0 Phase 2 with enhanced multicloud resiliency; IPv6 expansion; Site-to-Cloud on horizontally scaled transit gateways; first-hop VRF for overlapping CIDRs.
+      - Gateway drain/undrain during maintenance; unified upgrade planning with automated upgrade-path validation; image upgrade support for self-managed and Equinix Edge gateways.
+      - New Dell R470 hardware for AEP Edge replacing end-of-support models.
+    removals:
+      - Removed legacy Site2Cloud telemetry fields.
+      - Deprecated RRD database dependencies.
+notes: Recent-window capture from the "What's New in the Aviatrix Controller" page; the live release-notes pages are the source of truth for the full dated history. Terraform provider tracks the platform at v9.0.10.

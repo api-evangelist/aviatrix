@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.aviatrix.com/docs/enterprise/9.0/reference/release-notices/
+versioning:
+  scheme: semver
+  current: 9.0.0
+  current_released: '2026-05-12'
+  docs: https://docs.aviatrix.com/docs/enterprise/9.0/reference/release-notices/what-is-new/what-is-new.md
+  notes: Controller/Gateway software and CoPilot use major.minor.patch semantic versioning; docs are versioned (self-managed enterprise 9.0 latest + cloud-hosted PaaS).
+deprecation:
+  policy_url: https://docs.aviatrix.com/docs/enterprise/9.0/reference/release-notices/field-notices/index.md
+  mechanism: Field Notices announce end-of-support hardware/software and removed/deprecated features (e.g. 9.0 removed legacy S2C telemetry fields and deprecated RRD database dependencies); alerts also surface in the Controller console.
+  sunset_header: false
+status_page: null
+status_page_note: No public status page found (status.aviatrix.com does not resolve); operational notices are delivered via Field Notices and the Support Portal.
+release_notes:
+  - name: Controller and Gateway Software Release Notes
+    url: https://docs.aviatrix.com/docs/enterprise/9.0/reference/release-notices/release-notes/controller/index.md
+  - name: CoPilot Release Notes
+    url: https://docs.aviatrix.com/docs/enterprise/9.0/reference/release-notices/release-notes/copilot/index.md
+  - name: VPN Client Release Notes
+    url: https://docs.aviatrix.com/docs/enterprise/9.0/reference/release-notices/release-notes/vpn-client/index.md
+security_advisories: https://docs.aviatrix.com/docs/enterprise/9.0/reference/release-notices/psirt-advisories/index.md
+deprecated_operations: []
+deprecated_operations_note: No public OpenAPI captured; operation-level deprecation not derivable.

@@ -1,0 +1,16 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+url: https://trust.aviatrix.com/
+certifications:
+  - SOC 2
+  - ISO 27001
+  - TISAX
+compliance_programs:
+  - GDPR
+  - CCPA
+security_contact: security@aviatrix.com
+evidence:
+  - source: https://trust.aviatrix.com/
+    keywords: [soc 2, iso 27001, tisax, trust center, security@aviatrix.com]
+notes: Trust Center is a SafeBase-style hosted portal (JS-rendered, not caught by the automated probe); SOC 2, ISO 27001 and TISAX each have documents available, GDPR/CCPA listed as programs. Verified by direct fetch.

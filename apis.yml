@@ -1,8 +1,28 @@
 aid: aviatrix
 name: Aviatrix
-description: Aviatrix is a company surfaced as a portfolio company of 8vc, crv, general-catalyst, insight-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Aviatrix is a cloud network security company whose Cloud Native Security Fabric (CNSF)
+  delivers zero-trust, workload-level network security and runtime protection across AWS,
+  Azure, GCP, OCI, and hybrid/edge environments. The platform - built on the Aviatrix
+  Controller, CoPilot, and gateways - provides the Distributed Cloud Firewall (DCF),
+  east-west segmentation, egress control, intrusion prevention with TLS decryption, and
+  AI-enhanced threat detection under a single multicloud policy framework. Aviatrix is
+  automation-first: its official Terraform provider (4.8M+ downloads) and goaviatrix Go
+  client drive the Controller REST API, and integrations exist for Splunk, SIEM, and
+  Kubernetes. This profile was enriched from Aviatrix's public developer, docs, and Trust
+  Center surfaces.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://aviatrix.ai/images/logo/aviatrix.svg
 url: https://raw.githubusercontent.com/api-evangelist/aviatrix/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,9 +35,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Cloud Networking
+- Cloud Security
+- Multicloud
+- Network Security
+- Zero Trust
+- Firewall
+- Infrastructure
+- Terraform
+- DevOps
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +56,56 @@ maintainers:
 common:
 - type: Website
   url: https://aviatrix.ai/
+- type: DeveloperPortal
+  url: https://docs.aviatrix.com/
+- type: Documentation
+  url: https://docs.aviatrix.com/
+- type: APIReference
+  url: https://docs.aviatrix.com/docs/enterprise/9.0/reference/api/index
+- type: GettingStarted
+  url: https://docs.aviatrix.com/docs/cloud/getting-started/index.md
+- type: Support
+  url: https://support.aviatrix.com/
+- type: HelpCenter
+  url: https://community.aviatrix.com/
+- type: Blog
+  url: https://aviatrix.ai/blog
+- type: GitHubOrganization
+  url: https://github.com/AviatrixSystems
+- type: Pricing
+  url: https://aviatrix.com/pricing/
+- type: SignUp
+  url: https://aviatrix.ai/get-started/
+- type: TermsOfService
+  url: https://aviatrix.ai/legal/terms-of-use/
+- type: PrivacyPolicy
+  url: https://aviatrix.ai/privacy-policy/
+- type: Packages
+  url: packages/aviatrix-packages.yml
+- type: SDKs
+  url: packages/aviatrix-packages.yml
+- type: LLMsTxt
+  url: llms/aviatrix-llms.txt
+- type: Lifecycle
+  url: lifecycle/aviatrix-lifecycle.yml
+- type: Deprecation
+  url: https://docs.aviatrix.com/docs/enterprise/9.0/reference/release-notices/field-notices/index.md
+- type: ChangeLog
+  url: changelog/aviatrix-changelog.yml
+- type: Conformance
+  url: conformance/aviatrix-conformance.yml
+- type: Compliance
+  url: https://trust.aviatrix.com/
+- type: DomainSecurity
+  url: security/aviatrix-domain-security.yml
+- type: TrustCenter
+  url: https://trust.aviatrix.com/
+- type: VulnerabilityDisclosure
+  url: security/aviatrix-vulnerability-disclosure.yml
+- type: Security
+  url: https://docs.aviatrix.com/docs/enterprise/9.0/reference/release-notices/psirt-advisories/index.md
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
