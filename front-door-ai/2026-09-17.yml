@@ -1,0 +1,36 @@
+# Front Door AI Index — aviatrix — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: aviatrix
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: aviatrix.ai
+  final_host: aviatrix.ai
+  ownership: own
+  owner: aviatrix
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 37
+  host_score: 37
+  density: 21.15
+  words: 1749
+  tiers:
+    agentic: 6
+    core: 24
+    model: 7
+  ambiguous: 7
+  top_terms:
+    AI: 22
+    Hugging Face: 5
+    agent: 3
+    automation: 3
+    agentic: 2
+    gen ai: 2
+    AI agent: 1
+    Bedrock: 1
+    MCP: 1
+    OpenAI: 1
+    copilot: 1
+    inference: 1
